@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | MetaLog</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="navlogo.webp" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/9c1aecd746.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body class="bg-gradient-to-r from-gray-100 to-purple-900">
+    <!-- navbar begins -->
+    <div class="cow">
+
+        <div class="relative m-0 p-0">
+            <div class="absolute inset-0 bg-pink-600 blur-lg "></div>
+            <nav
+                class="flex flex-col  relative bg-gradient-to-r from-slate-800 via-black to-slate-800   md:max-h-16  md:flex-row justify-between w-full ">
+                <div class="flex justify-between ">
+                    <div class="flex flex-row-reverse">
+                        <h2
+                            class="text-2xl text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600 px-3 pt-3 pb-4 font-semibold cursor-pointer md:text-3xl md:pt-4 md:pb-3">
+                            MetaLog
+                        </h2>
+                        <img src="navlogo.webp" class="w-14 h-15 pt-2 pb-1 pl-2 cursor-pointer md:w-16 " alt="">
+                    </div>
+                    <!-- hamburger menu-->
+
+
+                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"
+                        class="px-4 w-16 cursor-pointer md:hidden fill-pink-600" id="burger">
+                        <path
+                            d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z" />
+
+                    </svg>
+
+
+                </div>
+                <!-- nav list -->
+                <div
+                    class="text-transparent bg-clip-text flex flex-cols items-center justify-center  bg-gradient-to-br from-pink-400 to-red-600 ">
+                    <ul class="hidden text-center  md:flex md:mt-4 md:space-x-4 md:px-5 font-semibold" id="menu">
+                        <li class="text-lg py-2 hover:translate-y-1  hover:text-white"><a href="#">Home</a>
+                        </li>
+                        <li class="text-lg py-2 px-4  hover:translate-y-1  hover:text-white ">
+                            <a href="vr.html" target="_blank">VR</a>
+                        </li>
+                        <li class="text-lg py-2 hover:translate-y-1  hover:text-white "><a href="nft.html"
+                                target="_blank">NFTs</a>
+                        </li>
+                        <li class="text-lg py-2 px-3  rounded-sm hover:translate-y-1  hover:text-white"><button
+                                class="font-semibold"><a href="login.html" target="_blank">Login</a></button>
+                        </li>
+                        <li class="text-lg py-2 px-3 rounded-sm hover:translate-y-1  hover:text-white"><button
+                                class="font-semibold"><a href="signup.html" target="_blank">Sign
+                                    Up</a></button>
+                        </li>
+
+                        <li class=" py-2 px-3">
+                            <div>
+                                <input type="checkbox" class="checkbox" id="chk" />
+                                <label class="label" for="chk">
+                                    <!-- <i class="fas fa-moon"></i> -->
+                                    <i class="fa-solid fa-moon"></i>
+                                    <!-- <i class="fas fa-sun"></i> -->
+                                    <i class="fa-solid fa-sun"></i>
+                                    <div class="ball"></div>
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+    <!-- end of nav -->
+    <!-- main begins -->
+
+    <section class="mb-20">
+
+
+        <!-- front page cover -->
+        <div
+            class="h-screen flex flex-col items-center lg:items-baseline lg:flex-row lg:justify-between 2xl:justify-evenly mx-5 my-4">
+            <div class="flex flex-col items-center">
+                <p
+                    class=" text-3xl font-semibold py-3 text-center  md:text-4xl 2xl:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-red-600 ">
+                    Welcome to
+                    MetaLog
+                </p>
+                <a href="#started"><button class=" bg-green-500 text-white font-semibold mt-20 rounded-sm crow ">Get
+                        Started</button></a>
+            </div>
+
+
+
+
+
+            <!-- frontpage grid -->
+            <!-- <div style="margin-bottom: -200px;"> -->
+            <div class="grid gap-7  md:gap-8  lg:max-w-xl lg:gap-4 p-4 lg:grid-cols-2   ">
+
+                <p class=" pb-10 font-semibold text-xl text-center md:text-2xl">
+                    Explore the Future of Internet with MetaLog
+                </p>
+                <div
+                    class="text-white rounded-md row-span-1 flex flex-col items-center bg-gradient-to-t from-black to-red-700 hover:cursor-pointer  ">
+                    <span class="flex justify-center">
+                        <h2 class="text-xl font-semibold px-2 py-2 drop-shadow-2xl">CryptoLog</h2>
+                        <img src="btc.svg" class="w-6" alt="">
+                    </span>
+
+                    <form action="#" class="outline-none hidden lg:block">
+                        <label for="coins"></label>
+                        <div class="text-center my-2 text-lg ease-out ">
+                            <select name="" id="coins "
+                                class="px-4 my-2 text-center rounded-md font-mono outline-none text-black hover:cursor-pointer hover:text-white hover:bg-black">
+                                <option value="Eth " class="text-center rounded-sm py-2">Ethereum</option>
+                                <option value="Btc" class="text-center py-2">Bitcoin</option>
+                                <option value="dgc" class="text-center py-2">Doge Coin</option>
+                                <option value="dot" class="text-center py-2">Polkadot</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p class="py-2 my-1 italic text-center">to</p>
+                        </div>
+
+
+                        <div class="text-center  text-lg ease-out  ">
+                            <select name="" id="coins "
+                                class="px-4 my-2 text-center rounded-md font-mono outline-none text-black hover:text-white hover:bg-black hover:cursor-pointer">
+                                <option value="Eth " class="text-center rounded-sm py-2">Ethereum</option>
+                                <option value="Btc" class="text-center py-2">Bitcoin</option>
+                                <option value="dgc" class="text-center py-2">Doge Coin</option>
+                                <option value="dot" class="text-center py-2">Polkadot</option>
+                            </select>
+                        </div>
+
+
+                    </form>
+
+                    <button
+                        class="py-2 px-7 bg-blue-500 my-3    hover:translate-y-1 rounded-md text-md font-semibold hover:text-white hover:bg-blue-900 hidden lg:block  ">Convert</button>
+                </div>
+                <div
+                    class="bg-gradient-to-l from-purple-900 to-red-900 row-span-2 rounded-md flex flex-col hover:cursor-pointer  items-center">
+                    <h2 class="text-xl font-semibold text-white px-3 py-3">Meet New People in the MetaVerse</h2>
+                    <p class="text-gray-300 px-3 mt-2 py-2 hidden lg:block">Make new friends and explore the world
+                        in
+                        the MetaVerse
+
+                    </p>
+
+                    <a href="signup.html" target="_blank">
+                        <button
+                            class="bg-blue-500 my-3 py-3 px-2 text-white   hover:translate-y-1 rounded-md text-md  hover:cursor-pointer font-semibold hover:text-white hover:bg-blue-900 hidden lg:block">Add
+                            Friend</button>
+                    </a>
+
+                </div>
+                <div class="bg-gradient-to-b from-black to-purple-900 rounded-md flex flex-col items-center p-4">
+                    <h2 class="text-white text-lg font-semibold px-4 py-2">BlockChain System</h2>
+
+                    <!-- <h2 class="text-white text-lg font-semibold px-4 py-2">WEB 3.0</h2> -->
+
+
+
+
+                </div>
+                <div
+                    class="bg-gradient-to-b from-red-600  to-black flex flex-col items-center  hover:cursor-pointer  rounded-md">
+                    <h2 class="text-white px-4 py-2 my-2 font-semibold text-lg">Create Your Own Digital Identity
+                    </h2>
+                    <button
+                        class="bg-blue-500  text-white px-4 py-2 my-2  hover:translate-y-1 rounded-md text-md font-semibold hover:text-white hover:bg-blue-900 hidden lg:block">Lets
+                        Go</button>
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+        <!-- end of front page grid -->
+        </div>
+
+    </section>
+    <!-- header second section -->
+
+    <div class=" mt-32 md:mt-28 lg:mt-24 pt-32 lg:pt-28 ">
+        <div class=" font-semibold text-xl md:text-2xl " id="started">
+            <p class="text-white text-center">Lets Get You Started</p>
+        </div>
+
+        <!-- cards go here -->
+        <div class="" id="cards">
+            <div class="grid grid-cols-1 gap-4  place-items-center  my-8  px-10   lg:grid-cols-2 lg:grid-rows-2 ">
+
+
+                <div class="bg-white  max-w-xs  text-black  whitespace-normal rounded-md shadow-2xl mb-10 md:max-w-sm ">
+                    <img src="avatar.webp" class="rounded-md  " alt="">
+                    <header>
+                        <h2 class="text-xl font-bold px-2">Create Your Own Avatar</h2>
+                    </header>
+                    <p class="px-2 mt-2 ">
+                        MetaLog enables you to create your own avatar through which you can explore the virtual
+                        world.
+                        Creating an avatar just enhances the fun of exploring the MetaVerse
+
+                    </p>
+                    <a href="avatar.html" target="_blank"><button
+                            class="bg-blue-500 px-4 py-2 m-2  hover:translate-y-1 rounded-md text-md font-semibold hover:text-white hover:bg-blue-900">Get
+                            Started</button></a>
+                </div>
+                <div class="bg-white  max-w-xs whitespace-normal  text-black  rounded-md shadow-2xl mb-10 md:max-w-sm ">
+                    <img src="nft.webp" class="rounded-md " alt="">
+                    <header>
+                        <h2 class="text-xl font-bold px-2">Non Fungible Tokens</h2>
+
+                    </header>
+                    <p class="px-2 mt-2 py-2 ">
+                        Do you feel left out when your friends talk about NFTs?
+                        We at MetaLog will help you understand what NFT is and you can also create your
+                        <b>OWN</b>
+                        Non Fungible Token.
+                    </p>
+                    <a href="nft.html" target="_blank"><button
+                            class="bg-blue-500 px-4 py-2 m-2  hover:translate-y-1 rounded-md text-md font-semibold hover:text-white hover:bg-blue-900 ">Learn
+                            More</button></a>
+                </div>
+                <div
+                    class="bg-white  max-w-xs whitespace-normal  text-black  rounded-md  mb-10 shadow-2xl md:max-w-sm ">
+                    <img src="istockphoto-1147229526-170667a.jpg" class="rounded-md " alt="">
+                    <header>
+                        <h2 class="text-xl font-bold px-2">MetaBlog</h2>
+
+
+                    </header>
+                    <p class="px-2 mt-2 ">
+                        Want latest information on topics such as Crypto Currency, Virtual Reality , Block Chain
+                        or
+                        WEB 3.0? Head over to our blog site 'MetaBlog' to read articles written by industry
+                        experts.
+
+
+                    </p>
+                    <a href="metablog.html" target="_blank"><button
+                            class="bg-blue-500 px-4 py-2 m-2  hover:translate-y-1 rounded-md text-md font-semibold hover:text-white hover:bg-blue-900 ">Read
+                            Articles</button></a>
+                </div>
+                <div
+                    class="bg-white  max-w-xs whitespace-normal  text-black  rounded-md  mb-10 shadow-2xl md:max-w-sm ">
+                    <img src="games_final.jpg" class="rounded-md h-fit " alt="">
+                    <header>
+                        <h2 class="text-xl font-bold px-2 py-2">MetaGame</h2>
+
+
+                    </header>
+                    <p class="px-2 mt-2 ">
+
+                        Do you have what it takes to be an ardent gamer? Move on to our
+                        brand new wbesite <b>'MetaGame'</b> and win exciting MetaLog goodies or redeemable
+                        coupons.
+
+
+
+
+                    </p>
+                    <a href="https://playvalorant.com/en-us/"><button
+                            class="bg-blue-500 px-4 py-2 m-2  hover:translate-y-1 rounded-md text-md font-semibold hover:text-white hover:bg-blue-900 ">Lets
+                            Play</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- end of main -->
+    <!-- footer -->
+    <footer
+        class=" flex flex-col justify-center space-y-8 items-center bg-gradient-to-r from-slate-800 via-black to-slate-800 py-10 text-white">
+
+        <div class="flex flex-col items-center justify-center">
+            <input type="text" placeholder="Subscribe to Our Newsletter"
+                class="md:px-5 md:py-3 my-2 mx-2 md:w-72 border-2 rounded-md text-left text-black px-4 py-2 w-64">
+            <button
+                class="bg-green-500 hover:bg-green-700 text-black hover:text-white py-2 px-3 rounded-md mt-2 mx-2">Submit</button>
+        </div>
+        <div class="flex justify-center items-center space-x-4">
+            <i class="fa-brands fa-facebook-f text-blue-600 text-2xl hover:cursor-pointer"></i>
+            <!-- <i class="fa-brands fa-instagram text- font-semibold text-5xl"></i> -->
+            <img src="instagram.png " class="w-7 hover:cursor-pointer" alt="">
+            <!-- <i class="fa-brands fa-github "></i> -->
+
+        </div>
+        <p class="text-center text-gray-400 bottom-0">MetaLog &copy</p>
+
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
